@@ -300,11 +300,11 @@ watch(() => props.show, (newValue) => {
                 >
               </div>
               
-              <!-- 机场订阅前缀 -->
+              <!-- 订阅前缀 -->
               <div class="flex items-center justify-between">
                 <div>
-                  <p class="text-sm font-medium text-gray-700 dark:text-gray-300">机场订阅前缀</p>
-                  <p class="text-xs text-gray-500 dark:text-gray-400">为机场订阅节点添加订阅名前缀</p>
+                  <p class="text-sm font-medium text-gray-700 dark:text-gray-300">Sub订阅前缀</p>
+                  <p class="text-xs text-gray-500 dark:text-gray-400">为Sub订阅节点添加订阅名前缀</p>
                 </div>
                 <label class="relative inline-flex items-center cursor-pointer">
                   <input type="checkbox" v-model="prefixConfig.enableSubscriptions" class="sr-only peer">
