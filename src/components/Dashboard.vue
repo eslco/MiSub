@@ -339,7 +339,7 @@ const formattedTotalRemainingTraffic = computed(() => formatBytes(totalRemaining
     <!-- Header -->
     <div class="flex justify-between items-center mb-8">
       <div class="flex items-center gap-4">
-        <h1 class="text-2xl font-bold text-gray-800 dark:text-white">仪表盘</h1>
+        <h1 class="text-2xl font-bold text-gray-800 dark:text-white">仪表盘Dashboard</h1>
         <span 
           v-if="formattedTotalRemainingTraffic !== '0 B'"
           class="px-3 py-1 text-sm font-semibold text-green-700 bg-green-100 dark:text-green-300 dark:bg-green-500/20 rounded-full"
