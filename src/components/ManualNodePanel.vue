@@ -202,7 +202,7 @@ onUnmounted(() => {
         <h2 class="text-xl font-bold text-gray-900 dark:text-white">Manual手动节点</h2>
         <span class="px-2.5 py-0.5 text-sm font-semibold text-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-gray-700/50 rounded-full">{{ manualNodes.length }}</span>
         <span v-if="localSearchTerm" class="px-2.5 py-0.5 text-sm font-semibold text-blue-700 bg-blue-100 dark:text-blue-300 dark:bg-blue-500/20 rounded-full">
-          搜索: "{{ localSearchTerm }}" ({{ filteredNodes.length }}/{{ manualNodes.length }} 结果)
+          Search搜索: "{{ localSearchTerm }}" ({{ filteredNodes.length }}/{{ manualNodes.length }} Result结果)
         </span>
       </div>
       <div class="flex items-center gap-2 w-full sm:w-auto">
